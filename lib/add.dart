@@ -27,6 +27,8 @@ class _AddState extends State<Add> {
         child: Column(
           children: [
             TextField(
+              autofocus: true,
+              textAlign: TextAlign.center,
               decoration: InputDecoration(
                   hintText: 'المهمة',
                   prefixIcon: Icon(Icons.assessment),
@@ -38,6 +40,7 @@ class _AddState extends State<Add> {
               height: 15,
             ),
             TextField(
+              textAlign: TextAlign.center,
               decoration: InputDecoration(
                   hintText: 'التوصيف',
                   prefixIcon: Icon(Icons.description),
